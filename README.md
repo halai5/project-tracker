@@ -69,37 +69,4 @@ Le regole di accesso (RLS) sono definite negli stessi file: le voci di spesa son
 
 React 18 · Vite · Tailwind CSS · shadcn/ui (Radix UI) · TanStack Query · React Router · Recharts · jsPDF / html2canvas · Base44 SDK.
 
-## Come ottenere il codice completo
 
-Il codice vive in Base44. Due modi per portarlo in questo repository:
-
-1. **Export manuale.** Nell'editor Base44, menu «…» in alto a destra → **Export project as ZIP**. Scompatta lo ZIP in questa cartella (mantieni `README.md` e `screenshots/`) ed esegui il commit.
-2. **Sincronizzazione GitHub.** Con il piano Base44 che la include (Builder), menu «…» → **GitHub connection**: Base44 crea e sincronizza il repository, e le modifiche fatte su GitHub si riflettono nell'editor.
-
-## Esecuzione in locale
-
-Dopo aver aggiunto il codice completo:
-
-```bash
-npm install
-npm install -g base44@latest   # CLI Base44
-base44 dev                     # backend locale + frontend
-```
-
-Per lavorare solo sul frontend contro il backend ospitato, crea `.env.local`:
-
-```bash
-VITE_BASE44_APP_ID=<id_app>
-VITE_BASE44_APP_BASE_URL=https://<nome-app>.base44.app
-```
-
-poi `npm run dev`. Non committare mai `.env.local`.
-
-## Pubblicazione
-
-Dopo il push su git, apri il pannello Base44 (`base44 dashboard open`) e pubblica l'app.
-
-## Riferimenti
-
-- Documentazione Base44: <https://docs.base44.com>
-- App pubblicata: <https://s2smanagement.base44.app/>
