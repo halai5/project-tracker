@@ -4,7 +4,7 @@ Applicazione web per il monitoraggio di budget, spese, output e attività format
 
 L'app è costruita su [Base44](https://base44.com) e serve ai partner del progetto per seguire in un unico posto l'avanzamento dei fondi a lump sum.
 
-> **Nota sulla riservatezza.** L'app gestisce importi di progetto, documenti e dati dei partner. Tieni il repository **privato**.
+
 
 ## Cosa fa
 
